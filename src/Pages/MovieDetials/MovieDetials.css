@@ -1,0 +1,96 @@
+.Hole-container {
+  background-color: var(--secondary-colour);
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.img-container {
+  width: 500px;
+  height: 600px;
+  margin-top: 10px;
+  margin: 30px;
+}
+.detials-container {
+  width: 800px;
+  height: 600px;
+}
+.first-head {
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.genre {
+  margin: 20px;
+  font-size: 18px;
+}
+.name-genre {
+  color: rgba(255, 255, 255, 0.185);
+}
+small {
+  color: rgba(255, 255, 255, 0.185);
+}
+.rating-rank {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  /* justify-content: space-between;
+  align-items: center; */
+  margin: 20px;
+}
+.imdb_rating {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.imdb {
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  font-style: normal;
+  margin: 10px;
+}
+.rank {
+  margin: 10px;
+  font-size: 20px;
+}
+.rank-one {
+  font-size: 26px;
+  color: firebrick;
+}
+
+.Cast-name {
+  margin-bottom: 10px;
+}
+.cast-name {
+  width: 500px;
+  margin: 20px;
+}
+.main-names {
+  margin: 20px;
+}
+
+.Movie-sugestion {
+  display: flex;
+  margin: 20px;
+  width: auto;
+  height: 310px;
+  overflow: auto;
+}
+.recomandation {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: var(--secondary-colour);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-sugestion {
+  width: 200px;
+  height: 200px;
+}

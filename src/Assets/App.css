@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primery-colour: #192841;
+  --secondary-colour: #152238;
+  --font-colour: #ffffff;
+  --shadow-colour: #ffffff54;
+}
+
+body {
+  background: var(--primery-colour);
+  color: var(--font-colour);
+}
+a {
+  color: white;
+}

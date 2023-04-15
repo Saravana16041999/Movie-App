@@ -1,0 +1,28 @@
+.foot {
+  width: 100%;
+  height: 100px;
+  background-color: var(--secondary-colour);
+  font-family: "Hind Siliguri", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .foot {
+    width: 100%;
+    height: 100px;
+    background-color: var(--secondary-colour);
+    font-family: "Hind Siliguri", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .part-1 {
+    width: 200px;
+    font-size: 8px;
+  }
+  .part-2 {
+    font-size: 10px;
+  }
+}

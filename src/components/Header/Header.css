@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--secondary-colour);
+  font-family: "Hind Siliguri", sans-serif;
+  display: flex;
+  position: relative;
+}
+.head-menu {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heads {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-in {
+  margin: 80px;
+  background-color: rgb(47, 87, 135);
+  border: none;
+  padding: 8px 25px 8px 25px;
+  color: white;
+}
+.sign-in:hover {
+  border-style: solid;
+  border-color: white;
+  background: none;
+  border-width: 1px;
+  color: rgb(47, 87, 135);
+}
+a {
+  text-decoration: none;
+}
+.open-nav {
+  width: 150px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-nav button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 33px;
+}
+@media screen and (max-width: 425px) {
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--secondary-colour);
+    font-family: "Hind Siliguri", sans-serif;
+    display: flex;
+  }
+  .head-menu {
+    width: 80px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: darkgray;
+    margin: 10px;
+  }
+  .heads {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sign-in {
+    background-color: rgb(47, 87, 135);
+    border: none;
+    padding: 3px 15px 3px 15px;
+    color: white;
+    margin: 10px;
+  }
+  .sign-in:hover {
+    border-style: solid;
+    border-color: white;
+    background: none;
+    border-width: 1px;
+    color: rgb(47, 87, 135);
+  }
+  .heads h1 {
+    font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
